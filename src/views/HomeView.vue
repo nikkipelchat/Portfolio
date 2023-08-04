@@ -24,7 +24,7 @@ import DownloadResumeButton from '@/components/DownloadResumeButton.vue'
     <div class="absolute inset-0 z-0 w-full h-full">
       <img
         class="object-cover w-full h-full"
-        src="../assets/iceland5.jpg"
+        src="../assets/iceland.jpg"
       >
       <div class="absolute inset-0 bg-black bg-opacity-80" />
     </div>
