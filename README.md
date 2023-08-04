@@ -22,16 +22,30 @@ npm run lint
 npm run fix-lint
 ```
 
+## Deployment Branch Setup (One-time)
+
+``` bash
+# using --orphan because the history of the main branch is not meaningful to deploy
+git checkout --orphan gh-pages
+git reset --hard
+git commit --allow-empty -m "Init gh-pages branch"
+git checkout main
+# now mount the branch as a subdirectory
+git worktree add dist gh-pages
+```
+
 ## Deploying
 
-```bash
-# start on main branch
-npm run build
-# need -f because dist is in .gitignore
-git add dist -f
-# add a message
-git commit -m "Update deploy"
-# makes gh pages a subtree of our main branch
-# gh-pages branch will be the root of our dist folder only
-git subtree push --prefix dist origin gh-pages
+Every time you run `npm run build` the generated static files are in `dist` directory.
+Since `dist` folder is now `gh-pages` branch, you can deploy it directly by just creating a commit and pushing it.
+
+``` bash
+# do a build with latest main branch - npm run build
+cd dist
+git add --all
+git commit -m "Deploy"
+git push origin gh-pages
+cd ..
 ```
+
+This way nothing was added to the `main` branch history, keeping it clean.
