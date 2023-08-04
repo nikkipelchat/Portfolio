@@ -34,16 +34,18 @@ git checkout main
 git worktree add dist gh-pages
 ```
 
-# Deploying
+## Deploying
 
 Every time you run `npm run build` the generated static files are in `dist` directory.
 Since `dist` folder is now `gh-pages` branch, you can deploy it directly by just creating a commit and pushing it.
 
 ``` bash
+# do a build with latest main branch - npm run build
 cd dist
 git add --all
 git commit -m "Deploy"
 git push origin gh-pages
+cd ..
 ```
 
 This way nothing was added to the `main` branch history, keeping it clean.
