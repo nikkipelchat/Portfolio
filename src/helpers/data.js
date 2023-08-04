@@ -18,7 +18,7 @@ export const publications = [
     time: '2019',
     title: 'Neural Network Music Genre Classification',
     location: 'IEEE Canadian Conference of Electrical and Computer Engineering',
-    description: 'Presented my work in Edmonton, Alberta at the CCECE Conference. Published my work in their collection of articles.',
+    description: 'Presented my work at the CCECE Conference in Edmonton, Alberta. Published my work in their collection of articles.',
     link: 'https://ieeexplore.ieee.org/document/8861555',
   },
   {
@@ -35,7 +35,7 @@ export const experience = [
     time: 'June 2020 - Present',
     title: 'Principle Software Engineer',
     location: 'Lumeca Health',
-    description: 'I joined Lumeca to help grow their product, virtual health consultations. I contributed to feature planning and scoping, the backend architecture to a scheduling project, and upgrading our front end from Vue 2 to Vue 3. The stack I work in currently is Laravel, MySQL, AWS, and Vue.js.',
+    description: 'I joined Lumeca to help grow their virtual health consultation product. I contributed to feature planning and scoping, the backend architecture to a scheduling project, and upgrading our front end from Vue 2 to Vue 3. The stack I work in currently is Laravel, MySQL, AWS, and Vue.js.',
   },
   {
     time: 'Nov 2018 - June 2020',
