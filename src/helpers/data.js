@@ -124,14 +124,14 @@ export const projects = [
   {
     title: 'Portfolio',
     description: 'This is the website that you are currently on, my portfolio and resume.  Uses Node.js, Vue.js 3, and tailwind.',
-    imageName: 'portfolio.png',
+    imageName: 'Portfolio/portfolio.png',
     link: 'https://github.com/nikkipelchat/Portfolio',
     type: 'Web',
   },
   {
     title: 'Example Architecture of a Node.js (TS) project',
     description: 'This is an example architecture I built of a Node.js project. I used this archetecture on a private project so I\'ve created a public outline of it to build from in the future.',
-    imageName: 'node.png',
+    imageName: 'Portfolio/node.png',
     link: 'https://github.com/nikkipelchat/ExampleBackEndArchitecture',
     type: 'Web',
   },
