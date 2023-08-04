@@ -33,9 +33,9 @@ const currentAge = computed(() => {
             and Deep Learning. My career's focus has been within web development, both front and backend.
           </p>
           <p>
-            In my spare time I love reading, learning new things, and cooking and trying new foods and recipes.
-            I do my own mechanical work which always lead to some funny stories, renos and repairs around the house,
-            and enjoy gardening. Finally, I absolutely love to travel and watching my daughters experience new
+            In my spare time I love reading, learning new things, cooking new recipes, and trying new foods.
+            I do my own mechanical work which always leads to some funny stories, renos and repairs around the house,
+            and I enjoy gardening. Finally, I absolutely love to travel and watching my daughters experience new
             activities. Fun fact, the background photo at the top of my website is from my favorite trip, Iceland!
           </p>
         </div>
