@@ -1,6 +1,6 @@
 # Portfolio
 
-Code for my personal portfolio website, currently hosted by github pages [here](). This web app is build using Vue 3, Vite and tailwind.
+Code for my personal portfolio website, currently hosted by github pages [here](https://nikkipelchat.github.io/Portfolio/). This web app is build using Vue 3, Vite and tailwind.
 
 ## Requirements for Setup
 
@@ -20,4 +20,18 @@ npm run build
 npm run lint
 # run eslint and autofix any issues that arise
 npm run fix-lint
+```
+
+## Deploying
+
+```bash
+# start on main branch
+npm run build
+# need -f because dist is in .gitignore
+git add dist -f
+# add a message
+git commit -m "Update deploy"
+# makes gh pages a subtree of our main branch
+# gh-pages branch will be the root of our dist folder only
+git subtree push --prefix dist origin gh-pages
 ```
