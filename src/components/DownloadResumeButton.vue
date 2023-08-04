@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <a class="btn" :class="class" href="/resume.pdf" download="nikki-pelchat-resume">
+  <a class="btn" :class="class" href="../assets/resume.pdf" download="nikki-pelchat-resume">
     Download Resume
   </a>
 </template>
