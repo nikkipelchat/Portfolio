@@ -9,7 +9,7 @@ export const education = [
     time: '2015 - 2020',
     title: 'Master of Applied Science, Software Systems Engineering',
     location: 'University of Regina',
-    description: 'My focus of study was Artificial Intelligence and my thesis, <i>Neural Network Music Genre Classification</i>, further focused on Neural Networks and Deep Learning. Graduated with great distinction.',
+    description: 'My focus of study was Artificial Intelligence and my thesis, Neural Network Music Genre Classification, further focused on Neural Networks and Deep Learning. Graduated with great distinction.',
   },
 ]
 
