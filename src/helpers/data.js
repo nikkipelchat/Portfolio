@@ -123,9 +123,16 @@ export const skills = [
 export const projects = [
   {
     title: 'Portfolio',
-    description: 'This is the website that you are currently on, my portfolio and resume.  Uses Node.js, Vue.js 3, and tailwind.',
+    description: 'This is the website that you are currently on, my portfolio and resume.',
     imageName: 'Portfolio/portfolio.png',
     link: 'https://github.com/nikkipelchat/Portfolio',
-    type: 'Web',
+    type: 'Vue.js, Vite, Tailwind',
+  },
+  {
+    title: 'Barebones structure of a REST API serving fake data',
+    description: 'This is an example architecture I built for a private project. I\'ve created a simple version to grab and build from in the future.',
+    imageName: 'node.png',
+    link: 'https://github.com/nikkipelchat/fakedata-api',
+    type: 'TypeScript, Express, Swagger, REST',
   },
 ]
