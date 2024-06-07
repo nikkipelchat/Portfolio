@@ -29,7 +29,7 @@ const imageDir = `../../${props.imageName}`
     class="block h-48 mx-auto my-2 duration-500 transform bg-center bg-cover shadow-xl cursor-pointer w-96 hover:-translate-y-2 group"
     :style="{ backgroundImage: 'url(' + imageDir + ')' }"
   >
-    <div class="flex flex-col items-center justify-center h-full px-10 duration-300 transform bg-black bg-opacity-40 hover:bg-opacity-75">
+    <div class="flex flex-col items-center justify-center h-full px-10 duration-300 transform bg-black bg-opacity-5 hover:bg-opacity-75">
       <h1 class="text-xl font-bold text-white duration-500 transform opacity-0 group-hover:opacity-90">
         {{ props.title }}
       </h1>

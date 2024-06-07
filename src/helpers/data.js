@@ -33,7 +33,7 @@ export const publications = [
 export const experience = [
   {
     time: 'June 2020 - Present',
-    title: 'Principle Software Engineer',
+    title: 'Principal Software Engineer',
     location: 'Lumeca Health',
     description: 'I joined Lumeca to help grow their virtual health consultation product. I contributed to feature planning and scoping, the backend architecture to a scheduling project, and upgrading our front end from Vue 2 to Vue 3. The stack I work in currently is Laravel, MySQL, AWS, and Vue.js.',
   },
@@ -131,8 +131,15 @@ export const projects = [
   {
     title: 'Barebones structure of a REST API serving fake data',
     description: 'This is an example architecture I built for a private project. I\'ve created a simple version to grab and build from in the future.',
-    imageName: 'node.png',
+    imageName: 'Portfolio/node.png',
     link: 'https://github.com/nikkipelchat/fakedata-api',
     type: 'TypeScript, Express, Swagger, REST',
+  },
+  {
+    title: 'Music Genre Classification',
+    description: 'This is a neural network that can classify new music into its respective genre.',
+    imageName: 'Portfolio/music.png',
+    link: 'https://github.com/nikkipelchat/MusicGenreClassification',
+    type: 'Convolutional Neural Networks, Deep Learning, Python',
   },
 ]
