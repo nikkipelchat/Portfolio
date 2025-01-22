@@ -1,26 +1,19 @@
 export const education = [
   {
-    time: '2010 - 2014',
-    title: 'Bachelor of Applied Science, Software Systems Engineering',
-    location: 'University of Regina',
-    description: 'Attained my BASc in Software Systems Engineering. Graduated with distinction.',
-  },
-  {
     time: '2015 - 2020',
     title: 'Master of Applied Science, Software Systems Engineering',
     location: 'University of Regina',
     description: 'My focus of study was Artificial Intelligence and my thesis, Neural Network Music Genre Classification, further focused on Neural Networks and Deep Learning. Graduated with great distinction.',
   },
+  {
+    time: '2010 - 2014',
+    title: 'Bachelor of Applied Science, Software Systems Engineering',
+    location: 'University of Regina',
+    description: 'Attained my BASc in Software Systems Engineering. Graduated with distinction.',
+  },
 ]
 
 export const publications = [
-  {
-    time: '2019',
-    title: 'Neural Network Music Genre Classification',
-    location: 'IEEE Canadian Conference of Electrical and Computer Engineering',
-    description: 'Presented my work at the CCECE Conference in Edmonton, Alberta. Published my work in their collection of articles.',
-    link: 'https://ieeexplore.ieee.org/document/8861555',
-  },
   {
     time: '2020',
     title: 'Neural Network Music Genre Classification',
@@ -28,32 +21,48 @@ export const publications = [
     description: 'My thesis summary was accepted and published by the CJECE Journal in 2020. This was a continuation of the work presented in the 2019 CCECE Conference.',
     link: 'https://ieeexplore.ieee.org/document/9165253',
   },
+  {
+    time: '2019',
+    title: 'Neural Network Music Genre Classification',
+    location: 'IEEE Canadian Conference of Electrical and Computer Engineering',
+    description: 'Presented my work at the CCECE Conference in Edmonton, Alberta. Published my work in their collection of articles.',
+    link: 'https://ieeexplore.ieee.org/document/8861555',
+  },
 ]
 
 export const experience = [
   {
-    time: 'June 2020 - Present',
+    time: '2024 - Present',
+    title: 'Chief Technology Officer',
+    location: 'Lumeca Health',
+    stack: ['PHP/Laravel', 'Vue.js', 'MySQL', 'AWS'],
+    description: 'Currently, I lead technical projects and oversee integrations with third-party services, including video platforms, DevOps teams, and government entities. I manage deployments, address issues to ensure system reliability, and keep teams aligned through clear communication and task prioritization. Additionally, I maintain up-to-date documentation and drive the company’s technical vision, focusing on innovation, scalability, and efficient workflows.',
+  },
+  {
+    time: '2020 - 2024',
     title: 'Principal Software Engineer',
     location: 'Lumeca Health',
-    description: 'I joined Lumeca to help grow their virtual health consultation product. I contributed to feature planning and scoping, the backend architecture to a scheduling project, and upgrading our front end from Vue 2 to Vue 3. The stack I work in currently is Laravel, MySQL, AWS, and Vue.js.',
+    description: 'I joined Lumeca to help grow their virtual health consultation product. I contributed to building scalable solutions by upgrading the frontend from Vue.js 2 to Vue.js 3 and implementing custom features. I collaborated on establishing backend infrastructure for a large-scale scheduling project and designed architectures to support complex business needs. My work focused on creating efficient, reliable systems in a collaborative environment.',
   },
   {
-    time: 'Nov 2018 - June 2020',
+    time: 'Fall 2024',
+    title: 'Sessional Lecturer',
+    location: 'University of Regina',
+    stack: ['Vue.js', 'SASS', 'Bootstrap', 'HTML/CSS'],
+    description: 'As a sessional lecturer, I designed and taught a 400-level course on Responsive Web Development, Bootstrap, and Vue.js. I created comprehensive course materials, including assignments, exams, and assessments, and focused on practical applications of HTML, CSS, SASS, and Vue.js. Through detailed feedback and instruction, I guided students in mastering advanced frontend topics like reactivity, state management, and routing.',
+  },
+  {
+    time: '2018 - 2020',
     title: 'Engineering Team Lead',
     location: 'GasBuddy',
-    description: 'When I moved to a management role, the team I lead was 3-5 people. My duties changed to facilitating the Agile development cycle, task prioritization, weekly team member check-ins, quarterly reviews, team conflict resolution, and relaying task requirements, updates, and consumer challenges to the team. Along with the responsibility that comes with managing a team, I was also contributing code, PR reviews, and writing tests.',
+    stack: ['Node.js', 'JS', 'React', 'PostgreSQL', 'AWS'],
+    description: 'When I moved to a management role, the team I led was 3-5 people. My duties changed to facilitating the Agile development cycle, task prioritization, weekly team member check-ins, quarterly reviews, team conflict resolution, and relaying task requirements, updates, and consumer challenges to the team. Along with the responsibility that comes with managing a team, I was also contributing code, PR reviews, and writing tests.',
   },
   {
-    time: 'Feb 2015 - Nov 2018',
-    title: 'Senior Software Engineer',
+    time: '2014 - 2018',
+    title: 'Software Engineer',
     location: 'GasBuddy',
-    description: 'I moved into the software development department where I was introduced to Node.js. The product was still being established so I was able to see a full software development cycle from inception to customer subscriptions. The stack was Node.js, ES6, ESLint, PostgreSQL, Elastic Search, AWS, and React.',
-  },
-  {
-    time: 'Sept 2014 - Feb 2015',
-    title: 'QA Engineer',
-    location: 'GasBuddy',
-    description: 'I joined GasBuddy on the QA team. I quickly gained an appreciation for methodical testing and software verification. I created my own test plans to keep track of what had been tested prior to production releases.',
+    description: 'When I joined GasBuddy I was introduced to Node.js. The product was still being established so I was able to see a full software development cycle from inception to customer subscriptions.',
   },
 ]
 
@@ -63,60 +72,56 @@ export const skills = [
     value: '100',
   },
   {
-    title: 'Node.js',
-    value: '100',
-  },
-  {
-    title: 'PHP/Larvel',
-    value: '70',
-  },
-  {
     title: 'HTML/CSS/Responsive Design',
     value: '100',
   },
   {
-    title: 'REST APIs',
-    value: '90',
-  },
-  {
-    title: '.Net',
-    value: '50',
-  },
-  {
     title: 'Vue.js',
-    value: '70',
+    value: '100',
   },
   {
-    title: 'SQL (MySQL, PostgreSQL)',
-    value: '80',
+    title: 'Git',
+    value: '100',
+  },
+  {
+    title: 'REST APIs',
+    value: '100',
+  },
+  {
+    title: 'Node.js',
+    value: '90',
   },
   {
     title: 'Docker',
     value: '90',
   },
   {
-    title: 'React',
-    value: '65',
-  },
-  {
-    title: 'Elastic Search',
-    value: '75',
+    title: 'SQL (MySQL, PostgreSQL)',
+    value: '80',
   },
   {
     title: 'AWS',
-    value: '60',
-  },
-  {
-    title: 'TypeScript',
-    value: '65',
-  },
-  {
-    title: 'Redis',
     value: '70',
   },
   {
-    title: 'Git',
-    value: '90',
+    title: 'PHP/Laravel',
+    value: '60',
+  },
+  {
+    title: 'Redis',
+    value: '60',
+  },
+  {
+    title: 'React',
+    value: '50',
+  },
+  {
+    title: 'TypeScript',
+    value: '50',
+  },
+  {
+    title: 'Elastic Search',
+    value: '50',
   },
 ]
 
