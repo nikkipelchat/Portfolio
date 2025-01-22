@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
   class: {
     type: String,
     default: 'btn-primary',
